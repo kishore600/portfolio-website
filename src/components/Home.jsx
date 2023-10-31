@@ -17,7 +17,6 @@ const Home = () => {
             }}
             />
           </span>
-          
         </h1>
         <a href={require("../assets/kishore.pdf")} download="kishore_resume" >
           <button className='bg-purple-600 p-2 px-3 rounded-md mt-5 transition-all ease-in-out hover:scale-110 text-white'>
