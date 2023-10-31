@@ -10,9 +10,11 @@ import Skills from './components/Skills.jsx'
 
 function App() {
   return (
+    <div>
+
+      <Navbar />
     <div className='p-[20px]'>
       {/*Navbar*/}
-      <Navbar />
       {/*Home*/}
       <Home />
       {/*About*/}
@@ -25,6 +27,7 @@ function App() {
       <Contact />
       {/*footer*/}
       <Footer />
+    </div>
     </div>
   );
 }

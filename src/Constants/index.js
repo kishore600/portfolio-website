@@ -14,7 +14,7 @@ import { aflacLogo, android, angular, cognizantLogo,
 export const AppText={
    hello:'Hello,',
    Iam:'I am ',
-   Kishore_k:'KISHORE K',
+   Kishore_k:'Kishore K',
    aboutMeDescripion:'Hi  iam kishorek With a passion for full-stack development, I am a proficient developer capable of designing and developing applications with expertise in React and Node.js. Now i looking of the opportunity to develop my skills as MERN stack developer to create a unique and robust applications to the company and client',
    Skills:'Skills & ',
    Experties:'Experties',

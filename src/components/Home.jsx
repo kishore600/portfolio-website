@@ -4,7 +4,7 @@ import { homeImage } from '../assets'
 import Typewriter from 'typewriter-effect'
 const Home = () => {
   return (
-    <div className='mt-7 px-4 md:px-20 items-center flex flex-col md:flex-row justify-around'>
+    <div id='home' className='mt-7 px-4 md:px-20 items-center flex flex-col md:flex-row justify-around'>
       <div className='item-center'>
         <h1>{AppText.hello}</h1>
         <h1 className='text-[40px] font-bold'>{AppText.Iam} {AppText.Kishore_k}<span className='text-purple-600'>

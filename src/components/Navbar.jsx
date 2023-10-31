@@ -4,24 +4,21 @@ import "./Navbar.css";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="w-full p-[10px] flex justify-between items-center">
-      {/* <img src={logo} className="h-[20px]" /> */}
-      <h1>🖥️⌨️🖱️</h1>
+    <div className="w-full p-[10px] bg-white fixed flex justify-between items-center">
+      {/* <img src={logo} className="h-[50px]" /> */}
+      <h1 className="text-200">KK</h1>
       <div>
         <ul className="hidden md:flex">
           <li className="menuItem hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">
             <a href="/#home">Home</a>
           </li>
-          <li className="menuItem hover:scale-110">
+          <li className="menuItem hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">
             <a href="/#aboutme">About Me</a>
           </li>
-          <li className="menuItem hover:scale-110">
+          <li className="menuItem hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">
             <a href="/#skills">Skills</a>
           </li>
-          <li className="menuItem hover:scale-110">
-            <a href="/#companies">Companies</a>
-          </li>
-          <li className="menuItem hover:scale-110">
+          <li className="menuItem hover:scale-110 hover:z-50 transition-all duration-300 ease-in-out">
             <a href="/#contact">Contact Us</a>
           </li>
         </ul>
