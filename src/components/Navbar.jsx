@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <div className="w-full p-[10px] bg-white fixed flex justify-between items-center">
       {/* <img src={logo} className="h-[50px]" /> */}
+      {/* <img src={logo} className="h-[50px]" /> */}
       <h1 className="text-200">KK</h1>
       <div>
         <ul className="hidden md:flex">
