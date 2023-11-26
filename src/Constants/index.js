@@ -22,7 +22,7 @@ export const AppText={
    BackendDeveloper:'Backend Dev',
    FrontedDeveloper:'Frontend Dev',
    MernStackDevelper:'Mern Stack Dev',
-   SprintBootDeveloper:'Spring Boot Dev',
+   SprintBootDeveloper:'Python Danjo Dev',
    Portfolio:'Portfolio',
    Creative:'My Creative ',
    CompaniesI:'Companies I ',
