@@ -10,6 +10,11 @@ import { aflacLogo, android, angular, cognizantLogo,
      import linkend from '../assets/linkend.png'
      import git from '../assets/git.png'
      import insta from '../assets/insta.jpg'
+    import blog from '../assets/blog.jpg'
+    import el from '../assets/el.jpg'
+    import ecm from '../assets/ecm.jpg'
+    import nt from '../assets/nt.jpg'
+    import lee from '../assets/lee.png'
 
 export const AppText={
    hello:'Hello,',
@@ -22,7 +27,7 @@ export const AppText={
    BackendDeveloper:'Backend Dev',
    FrontedDeveloper:'Frontend Dev',
    MernStackDevelper:'Mern Stack Dev',
-   SprintBootDeveloper:'Python Danjo Dev',
+   SprintBootDeveloper:'Java Developer',
    Portfolio:'Portfolio',
    Creative:'My Creative ',
    CompaniesI:'Companies I ',
@@ -53,14 +58,6 @@ export const aboutSection=[
        title:'Backend Developer',
        desc:'knowledge in Node.js Express.js MongoDB RestAPI and Authentication'
    },
-   {
-    id:3,
-    image:'https://miro.medium.com/v2/resize:fit:1000/1*7p9sJ4GMdmSfgUZGsgFxoQ.png',
-    title:'Spring Boot Developer',
-    desc:'Experienced Spring Boot developer with a strong background in Java '
-    },
-    
-
 ]
 
 export const skillsList=[
@@ -133,28 +130,32 @@ export const portfolio=[
        title:'Blog Application',
        type:'website',
        desc:"Built a user-friendly website with API connectivity that provides post, category, blogs and JWT authentication  Utilized REACT.JS , RESTAPI Node.js and MongoDB together with other Technologies like HTML, CSS and JAVASCRIPT.",
-       imageUrl:"https://camo.githubusercontent.com/845fe53ebd9cf20c2c04e6c00914ce33835d8503355710869ebc332f0c7fcfb8/68747470733a2f2f692e696d6775722e636f6d2f707867746456552e706e67"
+       imageUrl:blog,
+       link:'https://github.com/kishore600/Blog-app',
    },
    {
        id:4,
        title:'E-Commerce Web App',
        type:'website',
        desc:"Built a user-friendly ecommerce with admin functionalities website with API connectivity that provides post, category, blogs and JWT authentication  Utilized REACT.JS , RESTAPI Node.js and MongoDB together with other Technologies like HTML, CSS and JAVASCRIPT",
-       imageUrl:"https://img-c.udemycdn.com/course/750x422/3678044_4cd0.jpg"
+       imageUrl:ecm,
+       link:'https://github.com/kishore600/E-commerce',
    },
    {
        id:2,
        title:'E-Learning Web App: Real-time',
        type:'website',
        desc:"Built a admin based with upload courses functionalities website with API connectivity that provides post, category, blogs and JWT authentication  Utilized REACT.JS , RESTAPI Node.js and MongoDB together with other Technologies like HTML, CSS and JAVASCRIPT",
-       imageUrl:"https://camo.githubusercontent.com/f815627b79a030e289ad1dfad3266d7f418c219a1314d14d813f5bd5362a7216/68747470733a2f2f692e696d6775722e636f6d2f364956474e556b2e706e67"
+       imageUrl:el,
+       link:'https://github.com/kishore600/e-learning',
    },
    {
        id:3,
        title:'Netflix Clone',
        type:'website',
        desc:"Designed and implemented a Netflix clone using the MEAN stack (MongoDB, Express.js, Angular, and Node.js). Developed a user-friendly streaming platform with responsive design, authentication, and video playback capabilities. Employed strong front-end and back-end development skills to create an engaging and functional platform for streaming content",
-       imageUrl:"https://i.ytimg.com/vi/FzWG8jiw4XM/maxresdefault.jpg"
+       imageUrl:nt,
+       link:'https://github.com/kishore600/netflix-clone',
    },
 
    
@@ -183,13 +184,13 @@ export const socialNetwork=[
    {
        id:1,
        logo:insta,
-       url:'https://www.instagram.com/tubeguruji/'
+       link:'https://www.instagram.com/this.is.kishorek/'
    },
    {
-       id:1,
+       id:2,
        logo:linkend,
-       link : 'linkedin.com/in/kishore-k-a7775a1ba/',
-       url:'https://www.linkedin.com/in/rahul-sanap-652920108/'
+       link : 'https://www.linkedin.com/in/kishore-k-a7775a1ba/',
+    //    url:'https://www.linkedin.com/in/rahul-sanap-652920108/'
    },
    {
        id:1,
@@ -197,4 +198,10 @@ export const socialNetwork=[
        link:'https://github.com/kishore600',
        url:'https://www.facebook.com/rahul.sanap1'
    },
+   {
+    id:1,
+    logo:lee,
+    link:'https://leetcode.com/kishroek006/',
+    // url:'https://www.facebook.com/rahul.sanap1'
+},
 ]

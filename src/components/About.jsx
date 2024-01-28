@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className='mt-[30px]'>
             <h1 className='text-white text-[50px] pt-[20px] font-bold text-center'>About <span className='text-black'>Me</span></h1>
-            <h1 className='w-full px-10 md:px-48 lg:px-80 mt-[50px] text-white'>{AppText.aboutMeDescripion} </h1>
+            <h1 className='w-full px-10 md:px-48 lg:px-80 mt-[50px] text-white text-xl	'>{AppText.aboutMeDescripion} </h1>
         </div>
         </div>
         <div className='flex flex-col md:flex-row mt-[-75px] md:px-32 '>

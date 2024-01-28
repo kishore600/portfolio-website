@@ -51,12 +51,14 @@ const PortFolio = () => {
         <div className='grid grid-rows-2 items-center content-center md:grid-cols-3 lg:grid-cols-3
         md:px-24 lg:px-48 p-4 '>
             {portfolioList.map((item,index)=>(
+                <a href={item.link} target="_blank">
                 <div className='p-2 flex flex-col m-2 rounded-lg bg-purple-100
                 transition-all ease-in-out group hover:scale-110'>
                     <img src={item.imageUrl} className="h-[180px] object-cover rounded-lg"/>
                     <h1 className='text-[14px] group-hover:scale-110 mt-2 text-center  font-bold'>{item.title}</h1>
                     <h1 className='text-[12px] text-gray-500 px-6 pb-3'>{item.desc}</h1>
                 </div>
+                </a>
             ))}
         </div>
     </div>
